@@ -1,0 +1,59 @@
+*{
+    background-color: black;
+}
+.registration {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background-color: black; /* Set form background color to white */
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue; /* Set heading color to blue */
+  }
+  
+  .form-group {
+    margin-bottom: 17px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Set button background color to blue */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Set button text color to white */
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  .custom-text {
+    color: white;
+  }
+  
