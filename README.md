@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+React Flask Authentication Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Description
+Features
+Technologies Used
+Installation
+Usage
+Contributing
+License
+Acknowledgements
+Contact
+Description
+This project is a web application that provides user authentication using React on the frontend and Flask with MongoDB on the backend. It allows users to register, login, and access authenticated routes securely.
 
-## Available Scripts
+Features
+User registration with validation
+User login with password hashing for security
+Access to authenticated routes upon successful login
+Integration with MongoDB for data storage
+Cross-origin resource sharing (CORS) enabled
+Technologies Used
+React.js
+React Router
+React Bootstrap
+Axios
+Flask
+Flask-CORS
+Flask-PyMongo
+MongoDB
+bcrypt
+Installation
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/username/react-flask-authentication.git
+Navigate to the project directory:
 
-### `npm start`
+bash
+Copy code
+cd react-flask-authentication
+Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Install Python dependencies (assuming you have Python and pip installed):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Start the Flask server:
 
-### `npm test`
+bash
+Copy code
+python app.py
+Start the React development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm start
+Access the application in your web browser at http://localhost:3000.
 
-### `npm run build`
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+License
+This project is licensed under the MIT License.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here are some pictures of the project 
+Home page
+<img width="959" alt="Screenshot 2024-03-24 155209" src="https://github.com/GoHarshit/React_Flask_mongoDb_authentication_page/assets/104767001/ccc97ad3-4939-4d94-aebb-2df0eac03196">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Login page
+<img width="959" alt="Screenshot 2024-03-24 155324" src="https://github.com/GoHarshit/React_Flask_mongoDb_authentication_page/assets/104767001/ec251c5f-02be-4bf5-b392-87c3e9bb1631">
 
-### `npm run eject`
+Register page
+<img width="946" alt="Screenshot 2024-03-24 155440" src="https://github.com/GoHarshit/React_Flask_mongoDb_authentication_page/assets/104767001/2c2be07a-1916-4d54-a571-0cf23ceca876">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Acknowledgements
+Thanks to OpenAI for providing the ChatGPT model used to generate this README template.
+Contact
+For inquiries or support, please contact Harshit Goel(insta-harshitgoel38,mail-harshitgoelwork@gmail.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to customize the README further with additional sections or details specific to your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
